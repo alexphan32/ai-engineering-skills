@@ -11,6 +11,7 @@ A library of [Claude Code Agent Skills](https://docs.claude.com/en/docs/claude-c
 - [Agents](#agents)
 - [Design Conventions](#design-conventions)
 - [Contributing](#contributing)
+- [Changelog](#changelog)
 - [License](#license)
 
 ## How it works
@@ -116,6 +117,10 @@ agent inventory table.
 4. Open a PR describing what changed and why.
 
 This library pairs well with [Superpowers](https://github.com/obra/superpowers) for the surrounding process skills (TDD enforcement, subagent-driven execution, git worktree isolation) — several skills here reference Superpowers' `subagent-driven-development` and `executing-plans` for orchestrating multi-task plans, though none of it is a hard dependency.
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release notes.
 
 ## License
 
